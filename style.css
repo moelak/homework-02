@@ -57,7 +57,7 @@ body {
 
 .navbar > .container .navbar-brand,
 .navbar > .container-fluid .navbar-brand {
-  margin-left: 45px;
+  margin-left: 15%;
   padding: 35px;
   height: auto;
   color: white;
@@ -130,11 +130,11 @@ hr {
   padding-left: 15px;
   border-radius: 0px;
   background-color: white;
+  width: 500px;
 }
 .container {
   margin-left: 35px;
   padding-top: 40px;
-  max-width: 100%;
 }
 
 p {
@@ -175,6 +175,35 @@ p {
 }
 
 /*--------------------Portfolio------------------------*/
+.column {
+  float: left;
+  width: auto;
+  padding: 5px;
+  padding-left: 24px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.card-body {
+  -ms-flex: 1 1;
+  flex: 1 1;
+  min-height: 1px;
+  padding: 0.25rem;
+  position: absolute;
+  background-color: aqua;
+  width: 100%;
+  text-align: center;
+  bottom: 10px;
+}
+.card img {
+  width: 13rem;
+  height: 150px;
+}
 
 /*-----------Media------------- */
 
@@ -183,22 +212,24 @@ p {
 @media only screen and (max-width: 768px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
-    margin-left: 23px;
-    padding: 30px;
+    margin-left: 15px;
+    padding: 35px;
     height: auto;
     color: white;
   }
 
   .container {
     padding-top: 40px;
-    padding-left: 23px;
-    margin-left: 16px;
+    padding-left: 20px;
+    margin-left: 10px;
+    max-width: 100%;
+    margin: inherit;
   }
 
-  .row {
+  /* .row {
     margin-right: 0;
     margin-left: -25px;
-  }
+  } */
 
   .my-image {
     float: left;
@@ -223,6 +254,37 @@ p {
     border: 0;
     border-top: 4px solid rgba(0, 0, 0, 0.1);
   }
+
+  .column {
+    float: left;
+    width: auto;
+    padding: 5px;
+    /* padding: 40px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* margin: 0px auto; */
+  }
+
+  .card img {
+    width: 16rem;
+    height: 200px;
+  }
+
+  .column {
+    float: left;
+    width: auto;
+    padding-left: 20px;
+  }
+
+  .container .jumbotron,
+  .container-fluid .jumbotron {
+    padding-right: 5px;
+    /* padding-left: 15px; */
+    border-radius: 0px;
+    background-color: white;
+    width: 100%;
+  }
 }
 
 /*-----------Media for 640px------------- */
@@ -238,7 +300,6 @@ p {
 
   .container {
     margin-left: auto;
-    max-width: 100%;
   }
 
   .navbar > .container .navbar-brand,
@@ -296,7 +357,7 @@ p {
     text-align: center;
   }
   .row {
-    /* margin-right: -15; */
+    margin-right: 0;
     margin-left: 0;
   }
 
@@ -343,5 +404,24 @@ p {
   .jumbotron {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  .container .jumbotron,
+  .container-fluid .jumbotron {
+    padding-right: 26px;
+    padding-left: 10px;
+    border-radius: 0px;
+    background-color: white;
+    width: 100%;
+  }
+
+  .card img {
+    width: 100%;
+    height: 300px;
+  }
+  .column {
+    float: left;
+    width: auto;
+    padding-left: 0px;
   }
 }
