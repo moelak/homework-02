@@ -21,14 +21,6 @@ body {
   width: 100%;
   height: 60px; /* Height of the footer */
 }
-/* 
-.container-fluid {
-  padding-right: 0;
-  padding-left: 0;
-  margin-right: auto;
-  margin-left: auto;
-  height: 100%;
-} */
 
 /*----------- Navbar------------- */
 .list li a span {
@@ -76,13 +68,6 @@ body {
   padding: 0;
 }
 
-/* .nav {
-  float: right;
-  padding: 30px;
-  font-size: 18px;
-  background-color: white;
-} */
-
 .nav > li > a {
   position: relative;
   display: block;
@@ -100,14 +85,9 @@ body {
 .navbar-default {
   background-color: #ffffff;
 }
+/*----------- Navbar------------- */
 
 /*----------- Main------------- */
-
-/* .container {
-  padding-top: 40px;
-  padding-left: 45px;
-  margin-left: -5px;
-} */
 
 hr {
   margin-top: 1rem;
@@ -130,7 +110,7 @@ hr {
   padding-left: 15px;
   border-radius: 0px;
   background-color: white;
-  width: 500px;
+  width: 640px;
 }
 .container {
   margin-left: 35px;
@@ -140,7 +120,7 @@ hr {
 p {
   line-height: 1.25;
   font-family: sans-serif;
-  color: #676565;
+  color: #4f4f4f;
 }
 
 .jumbotron p {
@@ -149,17 +129,14 @@ p {
   font-weight: 200;
 }
 
-/* .jumbotron {
-  padding-top: 0;
-  padding-bottom: 0;
-} */
-
 .my-image {
   float: left;
   padding-right: 20px;
   width: 200px;
   height: 150px;
 }
+
+/*----------- Main------------- */
 
 /*-----------Footer------------- */
 .footer {
@@ -173,6 +150,7 @@ p {
   text-align: center;
   color: #b5b4b4;
 }
+/*-----------Footer------------- */
 
 /*--------------------Portfolio------------------------*/
 .column {
@@ -195,7 +173,7 @@ p {
   min-height: 1px;
   padding: 0.25rem;
   position: absolute;
-  background-color: aqua;
+  background-color: #45906d;
   width: 100%;
   text-align: center;
   bottom: 10px;
@@ -204,6 +182,26 @@ p {
   width: 13rem;
   height: 150px;
 }
+/*--------------------Portfolio------------------------*/
+
+/*--------------------Contact------------------------*/
+.btn {
+  background-color: #45906d;
+  width: 110px;
+  border-color: #45906d;
+}
+
+label {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  color: #4f4f4f;
+}
+
+.input {
+  width: 98%;
+}
+
+/*--------------------Contact------------------------*/
 
 /*-----------Media------------- */
 
@@ -225,11 +223,6 @@ p {
     max-width: 100%;
     margin: inherit;
   }
-
-  /* .row {
-    margin-right: 0;
-    margin-left: -25px;
-  } */
 
   .my-image {
     float: left;
@@ -259,11 +252,6 @@ p {
     float: left;
     width: auto;
     padding: 5px;
-    /* padding: 40px; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* margin: 0px auto; */
   }
 
   .card img {
