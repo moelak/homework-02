@@ -37,14 +37,14 @@ body {
 
 .navbar > .container .navbar-brand,
 .navbar > .container-fluid .navbar-brand:hover {
-  background-color: #45906d;
+  background-color: #57d6ff;
 }
 
 .navbar-brand {
   font-size: 24px;
   font-family: sans;
   font-weight: 600;
-  background-color: #45906d;
+  background-color: #57d6ff;
 }
 
 .navbar > .container .navbar-brand,
@@ -100,7 +100,7 @@ hr {
   font-size: 32px;
   font-family: sans;
   font-weight: 600;
-  color: #45906d;
+  color: #57d6ff;
   margin-top: -30px;
 }
 
@@ -142,7 +142,7 @@ p {
 .footer {
   width: 100%;
   padding: 30px;
-  border-top: 10px solid #45906d;
+  border-top: 10px solid #57d6ff;
   background-color: #727272;
 }
 
@@ -173,22 +173,33 @@ p {
   min-height: 1px;
   padding: 0.25rem;
   position: absolute;
-  background-color: #45906d;
+  background-color: #57d6ff;
   width: 100%;
   text-align: center;
   bottom: 10px;
 }
 .card img {
-  width: 13rem;
-  height: 150px;
+  width: 17.5rem;
+  height: 250px;
+}
+
+.card-title > a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.35s ease-in-out;
+}
+
+.card-title > a:hover {
+  color: #444444;
+  text-decoration: none;
 }
 /*--------------------Portfolio------------------------*/
 
 /*--------------------Contact------------------------*/
 .btn {
-  background-color: #45906d;
+  background-color: #57d6ff;
   width: 110px;
-  border-color: #45906d;
+  border-color: #57d6ff;
 }
 
 label {
@@ -238,7 +249,7 @@ label {
     font-family: sans;
     font-weight: 600;
     line-height: 0;
-    color: #45906d;
+    color: #57d6ff;
   }
 
   hr {
@@ -282,7 +293,7 @@ label {
     font-size: 24px;
     font-family: sans;
     font-weight: 600;
-    background-color: #45906d;
+    background-color: #57d6ff;
     width: 100%;
   }
 
@@ -346,7 +357,6 @@ label {
   }
   .row {
     margin-right: 0;
-    margin-left: 0;
   }
 
   .my-image {
@@ -385,7 +395,7 @@ label {
     font-family: sans;
     font-weight: 600;
     line-height: 0;
-    color: #45906d;
+    color: #57d6ff;
     margin-top: 15px;
     margin-bottom: 10px;
   }
@@ -410,6 +420,6 @@ label {
   .column {
     float: left;
     width: auto;
-    padding-left: 0px;
+    padding-left: 19%;
   }
 }
