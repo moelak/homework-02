@@ -1,4 +1,6 @@
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
+<video width="320" height="240" controls>
+  <source src="video.mov" type="video/mp4">
+</video>
 
 # Portfolio
 
